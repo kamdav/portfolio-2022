@@ -1,0 +1,50 @@
+.header {
+  margin-top: 100px;
+  text-align: left;
+  font-family: "Roboto Slab", "Arimo", "Roboto";
+  text-transform: uppercase;
+  color: #fafbfc;
+}
+
+.headerBlock {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.headerOne {
+  font-size: 86px;
+  font-weight: 400;
+  line-height: 1;
+  display: block;
+}
+
+.headerTwo {
+  font-size: 58px;
+  font-weight: 300;
+  line-height: 1;
+  display: block;
+}
+
+.animatedLetter {
+  position: relative;
+  opacity: 0;
+  top: -1.3em;
+  animation: text-drop 0.55s forwards;
+}
+
+@keyframes text-drop {
+  0% {
+    top: -1.3em;
+    opacity: 0.4;
+  }
+
+  40% {
+    top: 0.15em;
+    opacity: 0.8;
+  }
+
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
